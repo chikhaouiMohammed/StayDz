@@ -3,6 +3,7 @@ import paymentImg from '../../images/Home/BookSteps/payment-method.png'
 import dateImg from '../../images/Home/BookSteps/calendar.png'
 import tlemcenTripImg from '../../images/Home/BookSteps/card/Rectangle 17.png'
 import tlemcenProfileImg from '../../images/Home/BookSteps/card/image 32.png'
+import effectImg from '../../images/Home/BookSteps/effect.png'
 import firstIcon from '../../images/Home/BookSteps/card/icons/send 2.png'
 import secondIcon from '../../images/Home/BookSteps/card/icons/LEAF.png'
 import thirdIcon from '../../images/Home/BookSteps/card/icons/map 1.png'
@@ -15,7 +16,7 @@ function BookSteps() {
             {/* Info */}
             <div className="flex flex-col justify-center items-start">
                 {/* Heading */}
-                <div>
+                <div className=' mb-10'>
                     <h4 className="text-[#5E6282] text-base font-semibold">Easy and Fast</h4>
                     <h2 className="text-[50px] text-[#14183E] font-volkhov font-bold">Book your next trip <br /> in 3 easy steps</h2>
                 </div>
@@ -54,9 +55,9 @@ function BookSteps() {
                 </div>
             </div>
             {/* Images */}
-            <div className=' mr-10'>
+            <div className=' mr-10 relative '>
                 {/* Card */}
-                <div className='px-[25px] py-[20px] shadow-2xl rounded-2xl'>
+                <div className='px-[25px] py-[20px] shadow-2xl rounded-2xl z-20 bg-white'>
                     {/* Image */}
                     <div><img src={tlemcenTripImg} alt="" /></div>
                     {/* info */}
@@ -65,7 +66,7 @@ function BookSteps() {
                         <span>14-29 June |   by Ibis</span>
                         <div className='flex justify-start items-center gap-3'>
                             <div className='bg-[#F5F5F5] p-[10px] rounded-full'><img src={firstIcon} alt="" /></div>
-                            <div className='bg-[#F5F5F5] p-[10px] rounded-full'><img src={secondIcon} alt="" /></div>
+                            <div className='bg-[#F5F5F5]  rounded-full'><img src={secondIcon} alt="" /></div>
                             <div className='bg-[#F5F5F5] p-[10px] rounded-full'><img src={thirdIcon} alt="" /></div>
                         </div>
                         <div className='flex justify-start items-center gap-3'>
@@ -73,6 +74,10 @@ function BookSteps() {
                             <span>24 hotel exist</span>
                         </div>
                     </div>
+                </div>
+                {/* Effect Image */}
+                <div className=' absolute bottom-0 -right-[5px] -z-10'>
+                    <img src={effectImg} alt="" />
                 </div>
             </div>
         </div>

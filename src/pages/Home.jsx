@@ -1,8 +1,10 @@
+import About from '../components/About/About';
 import BookSteps from '../components/BookSteps/BookSteps';
 import Destinations from '../components/Destinations/Destinations';
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero';
 import Services from '../components/Services/Services';
+import Testimonial from '../components/Testimonial/Testimonial';
 import headerBg from "../images/Home/Header/Decore.png"
 
 function Home() {
@@ -20,6 +22,8 @@ function Home() {
         <Services/>
         <Destinations/>
         <BookSteps/>
+        <Testimonial/>
+        <About/>
     </div>
   )
 }
