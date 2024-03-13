@@ -25,7 +25,10 @@ function Home() {
         <BookSteps/>
         <Testimonial/>
         <About/>
+<<<<<<< HEAD
         <Footer/>
+=======
+>>>>>>> 37f59b884301822272af9ee26b6648e4465ec329
     </div>
   )
 }

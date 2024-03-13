@@ -74,7 +74,7 @@ function Payment() {
                 </div>
                 {/* Info */}
                 <div>
-                    {/* heading */}
+                    {/* headingg */}
                     <div className='text-black mb-10'>
                         <h2 className='text-2xl font-bold'>First Hotel G</h2>
                         <span className='text-[#565656] text-sm'>Modern Hotel at Gothenburg Central Station</span>
