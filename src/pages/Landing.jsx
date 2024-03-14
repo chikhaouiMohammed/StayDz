@@ -1,4 +1,4 @@
-import About from '../components/About/About';
+import Aboutt from '../components/About/Aboutt';
 import BookSteps from '../components/BookSteps/BookSteps';
 import Destinations from '../components/Destinations/Destinations';
 import Footer from '../components/Footer/Footer';
@@ -8,7 +8,7 @@ import Services from '../components/Services/Services';
 import Testimonial from '../components/Testimonial/Testimonial';
 import headerBg from "../images/Home/Header/Decore.png"
 
-function Home() {
+function Landing() {
   const homeBackground = {
     background: `url(${headerBg}) top right / cover no-repeat`, 
     minHeight: '100vh', 
@@ -24,13 +24,10 @@ function Home() {
         <Destinations/>
         <BookSteps/>
         <Testimonial/>
-        <About/>
-<<<<<<< HEAD
+        <Aboutt/>
         <Footer/>
-=======
->>>>>>> 37f59b884301822272af9ee26b6648e4465ec329
     </div>
   )
 }
 
-export default Home
+export default Landing

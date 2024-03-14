@@ -1,4 +1,4 @@
-import Home from "./pages/Home"
+import Landing from "./pages/Landing"
 import Payment from "./pages/Payment"
 
 
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Home/>
+      <Landing/>
     </>
   )
 }
