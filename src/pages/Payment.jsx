@@ -60,7 +60,7 @@ function Payment() {
         </nav>
       </header>
       {/* payment page content */}
-      <div className='flex justify-center items-center gap-3 flex-nowrap'>
+      <div className='flex justify-center items-center gap-5 flex-nowrap'>
         {/* left side */}
         <div className='flex flex-col justify-center items-start'>
             {/* Hotel images & info */}
